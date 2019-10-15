@@ -7,5 +7,7 @@ namespace library
     {
         public int Get(int left, int right) =>
             DeserializeObject<int>($"{left + right}");
+
+        public String UserName;
     }
 }
